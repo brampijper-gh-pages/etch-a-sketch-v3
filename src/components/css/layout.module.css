@@ -1,0 +1,23 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    font-size: 1.4rem;
+}
+
+main {
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 90vw;
+    }
+}

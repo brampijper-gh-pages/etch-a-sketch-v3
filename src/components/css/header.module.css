@@ -1,0 +1,56 @@
+.page {
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+    padding: 2.5rem 1rem 2.5rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 2.5rem;
+    justify-items:start;
+    align-items:center;
+}
+
+.page svg {
+    max-width: 250px;
+    height: auto;
+}
+
+.page .text-container {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap:1.5rem;
+    line-height: 1.8;
+}
+
+.page h1 {
+    font-size: 2rem;
+}
+
+.page p {
+    font-size: 1.3rem;
+}
+
+.page .content button {
+    max-width:10rem;
+}
+
+
+
+/* @media screen and (min-width: 768px) {
+    .page div {
+        max-width: 650px;
+        margin-left: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .page {
+        padding: 4rem 2rem;
+    }
+    .page h1 {
+        font-size: 3.5rem;
+    }
+} */
